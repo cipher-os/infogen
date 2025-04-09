@@ -632,27 +632,8 @@
         let retryCount = 0;
         const maxRetries = 5;
 
-        function loadAdScript() {
-            const adScript = document.createElement('script');
-            adScript.async = true;
-            adScript.src = '//pl26303501.effectiveratecpm.com/fda47677578b5dccaee0fa79b4cf5d6b/invoke.js';
-            adScript.onload = () => {
-                console.log('Ad script loaded successfully.');
-                retryCount = 0;
-            };
-            adScript.onerror = () => {
-                console.error('Error loading ad script. Retrying...');
-                retryCount++;
-                if (retryCount <= maxRetries) {
-                    setTimeout(loadAdScript, 2000);
-                } else {
-                    console.error('Max retries reached. Failed to load ad script.');
-                }
-            };
-            document.head.appendChild(adScript);
-        }
-
-        loadAdScript();
+    <script async="async" data-cfasync="false" src="//pl26339604.profitableratecpm.com/e8837ce97d1e6bf1d7a2a7d549ab0599/invoke.js"></script>
+<div id="container-e8837ce97d1e6bf1d7a2a7d549ab0599"></div>
     </script>
 </body>
 </html>
